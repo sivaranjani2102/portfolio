@@ -340,21 +340,16 @@ section h2 {
 
 #dashboards .project-image-wrapper {
     width: 100%;
-    height: 350px;
-    overflow: hidden;
-    background: #f8fafc;
-    display: block;
+    height: auto;
+    overflow: visible;
 }
 
 #dashboards .project-image {
-    display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
+    display: block;
     object-fit: contain;
-    margin: 0;
 }
-
-/* Text BELOW image */
 
 #dashboards .project-content {
     display: block;
