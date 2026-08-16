@@ -726,3 +726,25 @@ section h2 {
     object-fit: contain !important;
     display: block;
 }
+/* ===== FINAL IMAGE FIX ===== */
+
+.project-card {
+    overflow: visible !important;
+}
+
+.project-image-wrapper {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+.project-image-wrapper img,
+.project-image {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    object-fit: contain !important;
+}
